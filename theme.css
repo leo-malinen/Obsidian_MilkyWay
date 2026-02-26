@@ -1,0 +1,41 @@
+.theme-dark {
+    --space-black: #05050A;      
+    --void-blue: #0B1021;         
+    --nebula-purple: #6A1B9A;     
+    --starlight-white: #E0E6ED;   
+    --star-blue: #4DF0FF;         
+    --grid-line: rgba(255, 255, 255, 0.05);
+
+    --background-primary: var(--space-black);
+    --background-secondary: var(--void-blue);
+    --background-modifier-border: var(--grid-line);
+    --pane-border-width: 1px;
+    --pane-border-color: var(--grid-line);
+
+    --text-normal: var(--starlight-white);
+    --text-muted: #8A9AAB;
+    --text-accent: var(--star-blue);
+    --text-accent-hover: #80F5FF;
+    --h1-color: #FFFFFF;
+    --h2-color: #F0F4F8;
+
+    --interactive-accent: var(--nebula-purple);
+    --interactive-accent-hover: #8E24AA;
+    --background-modifier-hover: rgba(106, 27, 154, 0.2);
+
+
+    --graph-text: var(--starlight-white);
+    --graph-line: rgba(77, 240, 255, 0.3); 
+    --graph-node: #FFFFFF; 
+    --graph-node-unresolved: var(--text-muted);
+    --graph-node-focused: var(--star-blue);
+    --graph-node-tag: var(--nebula-purple);
+    --graph-node-attachment: #A060FF;
+}
+
+.workspace-leaf-content[data-type="markdown"] .view-content {
+    background-image: 
+        linear-gradient(rgba(255,255,255,0.02) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(255,255,255,0.02) 1px, transparent 1px);
+    background-size: 30px 30px; 
+}
